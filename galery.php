@@ -49,8 +49,8 @@
     }
     h2{
       position: absolute;
-      top: 15%;
-      left: 47%;
+      top: 13%;
+      left: 45%;
       color: black;
       font-size: 30px;
       font-family: serif;
@@ -86,6 +86,7 @@
       color: white;
       font-family: serif;
       text-transform: uppercase;
+
       transition: 0,2s ease;
       cursor: pointer;
     }
@@ -95,14 +96,14 @@
     .sosmed img{
       margin: 10px;
       display: inline-block;
-      width: 25px;
+      width: 20px;
     }
   </style>
   </head>
   <header>
   <ul>
     <li><a href="galery.php">Galery</a></li>
-    <li><a href="profile.html">Profile</a></li>
+    <li><a href="profil.html">Profile</a></li>
   </ul>
     <ul class="sosmed">
     <li><a href="https://www.instagram.com/"><img src="instagram.png"></a></li>
