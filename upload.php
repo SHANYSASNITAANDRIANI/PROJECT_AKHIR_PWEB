@@ -8,7 +8,7 @@
     <title>Halaman</title>
       <style type="text/css">
     body{
-      background-image: url(cd.jpg);
+      background-image: url(./bg/cd.jpg);
       background-size: 100%;
     }
     *{

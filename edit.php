@@ -14,7 +14,7 @@
     <title>Halaman Edit</title>
     <style type="text/css">
     body{
-      background-image: url(cd.jpg);
+      background-image: url(./bg/cd.jpg);
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;

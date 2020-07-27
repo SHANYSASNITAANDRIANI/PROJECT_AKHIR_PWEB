@@ -8,7 +8,7 @@
     <title>Halaman Gallery</title>
     <style type="text/css">
     body{
-      background-image: url(cd.jpg);
+      background-image: url(./bg/cd.jpg);
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -106,10 +106,10 @@
     <li><a href="profil.html">Profile</a></li>
   </ul>
     <ul class="sosmed">
-    <li><a href="https://www.instagram.com/"><img src="instagram.png"></a></li>
-    <li><a href="https://twitter.com/twitter"><img src="twitter.png"></a></li>
-    <li><a href="https://www.facebook.com/"><img src="facebook.png"></a></li>
-    <li><a href="https://www.youtube.com/"><img src="youtube.png"></a></li>
+    <li><a href="https://www.instagram.com/"><img src="./bg/instagram.png"></a></li>
+    <li><a href="https://twitter.com/twitter"><img src="./bg/twitter.png"></a></li>
+    <li><a href="https://www.facebook.com/"><img src="./bg/facebook.png"></a></li>
+    <li><a href="https://www.youtube.com/"><img src="./bg/youtube.png"></a></li>
   </ul>
 </header>
   <body>
