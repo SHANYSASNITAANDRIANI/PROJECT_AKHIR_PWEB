@@ -1,5 +1,5 @@
 <?php
-  include 'koneksi.php';
+  include 'KONEKSI.php';
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -102,8 +102,8 @@
   </head>
   <header>
   <ul>
-    <li><a href="galery.php">Galery</a></li>
-    <li><a href="profil.html">Profile</a></li>
+    <li><a href="GALERY.php">Galery</a></li>
+    <li><a href="PROFIL.html">Profile</a></li>
   </ul>
     <ul class="sosmed">
     <li><a href="https://www.instagram.com/"><img src="./bg/instagram.png"></a></li>
@@ -128,12 +128,12 @@
         <td><?php echo $row['nama'] ?></td>
         <td><img src="gambar/<?php echo $row['file'] ?>"></td>
         <td>
-            <a href="edit.php?id=<?php echo $row['id_gambar'] ?>">Edit</a> |
-            <a href="hapus.php?id=<?php echo $row['id_gambar'] ?>">Hapus</a>
+            <a href="EDIT.php?id=<?php echo $row['id_gambar'] ?>">Edit</a> |
+            <a href="HAPUS.php?id=<?php echo $row['id_gambar'] ?>">Hapus</a>
         </td>
       </tr>
     <?php } ?>
     </table><br><br>
-    <a href="upload.php"><button type="button" name="upload">upload</button></a>
+    <a href="UPLOAD.php"><button type="button" name="upload">upload</button></a>
   </body>
 </html>

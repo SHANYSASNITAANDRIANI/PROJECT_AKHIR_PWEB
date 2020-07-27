@@ -1,5 +1,5 @@
 <?php
-  include 'koneksi.php';
+  include 'KONEKSI.php';
 
   $data=mysqli_query($conn, "SELECT * FROM tb_gambar WHERE id_gambar = '".$_GET['id']."'");
   $r = mysqli_fetch_array($data);
@@ -103,8 +103,8 @@
   <body>
     <header>
   <ul>
-    <li><a href="galery.php">Galery</a></li>
-    <li><a href="profil.html">Profile</a></li>
+    <li><a href="GALERY.php">Galery</a></li>
+    <li><a href="PROFIL.html">Profile</a></li>
   </ul>
 </header>
     <h2>Silahkan Edit Data : </h2>
@@ -127,7 +127,7 @@
           <td colspan="3"><img src="gambar/<?php echo $file ?>"/></td>
         </tr>
         <tr>
-          <td colspan="3"><input type="submit" name="kirim" value="update"/> <a href="galery.php"><button type="button" name="back">Back</button></a></td>
+          <td colspan="3"><input type="submit" name="kirim" value="update"/> <a href="GALERY.php"><button type="button" name="back">Back</button></a></td>
         </tr>
       </table>
     </form>
