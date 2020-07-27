@@ -84,7 +84,7 @@
     <header>
   <ul>
     <li><a href="galery.php">Galery</a></li>
-    <li><a href="contak.html">Concact</a></li>
+    <li><a href="profil.html">Profile</a></li>
   </ul>
 </header>
     <h2>Silahkan masukkan data : </h2>

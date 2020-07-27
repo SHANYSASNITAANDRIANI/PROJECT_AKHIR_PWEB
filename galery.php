@@ -102,7 +102,7 @@
   <header>
   <ul>
     <li><a href="galery.php">Galery</a></li>
-    <li><a href="contak.html">Concact</a></li>
+    <li><a href="profile.html">Profile</a></li>
   </ul>
     <ul class="sosmed">
     <li><a href="https://www.instagram.com/"><img src="instagram.png"></a></li>
